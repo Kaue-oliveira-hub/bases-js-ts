@@ -9,7 +9,7 @@ console.log(dominis);
 console.log( heroum );
 
 //para encontrar algo con find en una lista
-export const getHeroById = (id:number) => heroum.find(heros => heros.id === id )?? {};
+export const getHeroById = (id:number) => heroum.find(heros => heros.id === id );
 //con export se puede llamar la funcion desde otros archivos.
 console.log (getHeroById(300));
 
