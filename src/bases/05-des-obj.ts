@@ -25,4 +25,14 @@ const { name, age, power = 'no tiene poder, tiene dinero' } = persona;
 // en el caso de power que es opcional, tiene que estar como arriba porque se no hay
 //aparecer'a el mensaje de que no tiene poder
 
-//console.log(name, age, power);
+console.log(name, age, power);
+
+const createHero = ({name, age, codeName, power }: hero) => ({
+id: 123123,
+name: name, // como son iguales el parametro y el valor se puede quitar cosas
+age,
+codeName, 
+power: power ?? 'No tiene poder'
+});
+
+console.log(createHero(persona));
