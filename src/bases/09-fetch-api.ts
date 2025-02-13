@@ -15,7 +15,7 @@ fetch(`https://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`)
 //utilizamos la web de gifthy. cogimos la creamos una apikey, copiamos la direcion
 //hicimos una peticion con el metodo fetch.
 
-en el
+
 // en el programa postman/ ppegamos alli la linea de appkey hasta el igual y pegamos despues la llaveapikey
 // copiamos los datos para una interface en formato json
 //abrir la app  postman que sirve para hacer peticon a los backend
